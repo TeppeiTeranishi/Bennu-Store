@@ -1,0 +1,729 @@
+/* esto es de select de texto */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+::-moz-selection {color: #F1F1F1; background: #017c6a;}
+::selection      {color: #F1F1F1; background: #017c6a;}
+/* fin del select de texto */
+
+/* roots de colores para var */
+:root {
+    --dark-color: #1a1a1a;
+    --white-color: #ffffff;
+    --light-grey-color: #cacaca;
+    --gold-color: #E8D051;
+}
+/* fin de roots de colores para var */
+
+/* propiedad para todos los elementos */
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* fin de propiedad para todos los elementos */
+
+/* estilos para la etiqueta html */
+html {
+    scroll-behavior: smooth;
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+}
+/* fin de estilos para la etiqueta html */
+
+/* estilos para el body */
+body {
+    background: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-attachment: fixed;
+}
+/* fin de estilos para el body */
+
+/***** estilos para el modo oscuro *****/
+body.oscuro {background: #111111;}
+body.oscuro p {color: #F1F1F1;}
+body.oscuro a {color: #F1F1F1;}
+body.oscuro h2 {color: #F1F1F1;}
+body.oscuro h3 {color: #F1F1F1;}
+body.oscuro h4 {color: #F1F1F1;}
+body.oscuro span {color: #F1F1F1;}
+/* Esto es para la activación del modo oscuro */
+.switch {
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.switch.active {
+    background: orange;
+    color: #000;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
+/* Fin de los estilos para la activación del modo oscuro */
+/***** fin de estilos modo oscuro *****/
+
+/* estilos para classes de bootstrap */
+.bgDark {background-color: var(--dark-color) !important;}
+.bgLight {background-color: var(--white-color)!important;}
+.bgLightGrey {background-color: var(--light-grey-color)!important;}
+.colorDark {color: var(--dark-color) !important;}
+
+.btn {
+    font-size: 18px;
+    padding: 15px 25px;
+    min-width: 160px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--dark-color) !important;
+    color: var(--white-color);
+    border: 2px solid var(--dark-color);
+}
+
+.btn-secondary {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    border: 2px solid var(--white-color);
+}
+
+.btn-alternate {
+    background-color: transparent;
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-color);
+    border: 2px solid var(--dark-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    border: 2px solid var(--white-color);
+}
+
+.btn-secondary:focus {
+    background-color: var(--white-color) !important;
+    outline: none;
+    border: 2px solid var(--white-color) !important;
+    box-shadow: none;
+}
+/* fin de estilos para classes de bootstrap */
+
+/* estilos para etiquetas h, p y a*/
+h1 {font-size: 66px; font-weight: 700; line-height: 80px;}
+h2 {font-size: 48px; margin-bottom: 30px;}
+h3 {font-size: 33px;}
+h5 {margin-bottom: 0px;}
+
+p {
+    color: var(--dark-color);
+    line-height: 1.8;
+    margin-bottom: 0px;
+}
+
+a {
+    color: var(--light-grey-color);
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: var(--gold-color);
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.linksmandos {
+    color: var(--dark-color) !important;
+}
+.linksmandos:hover {
+    color: var(--gold-color) !important;
+}
+/* fin de estilos rtiquetas h, p y a */
+
+/* clases del navbar */
+.navbar {
+    background-color: #111111;
+    box-shadow: 0 2px 4px 0 #111111;
+    min-height: 100px;
+}
+
+.nav-link {
+    color: var(--light-grey-color);
+}
+
+.nav-link:hover {
+    color: var(--gold-color);
+}
+
+.navbar-toggler {
+    font-size: 16px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232,208,81, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgba(232,208,81, 0.5);
+} 
+/* fin de las classes del navbar */
+
+/* banners de las páginas */
+#banner {
+    background-image: url(../img/XboxPlayNintendo.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding-top: 110px;
+    min-height: 600px;
+}
+
+#banner h1{
+    padding-top: 230px;
+    color: #F1F1F1;
+}
+
+#xbox {
+    background-image: url(../img/XboxOne.webp);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 110px;
+    min-height: 650px;
+}
+
+#ps4 {
+    background-image: url(../img/PS4.webp);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 110px;
+    min-height: 650px;
+}
+
+#nintendo {
+    background-image: url(../img/nintendo.webp);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 110px;
+    min-height: 750px;
+}
+/* fin de los banners de las páginas */
+
+
+/* classes globales de cajas */
+.content-center {
+    max-width: 800px;
+    margin: 50px auto 60px auto;
+    text-align: center;
+}
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.company-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.company-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.company-container:hover img {
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.tamañoimg {
+    max-width: 100%;
+    background-position: center center;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    height: auto
+}
+
+.bennuimg img {
+    /* height: 310.75px;
+    width: 350px; */
+    background-position: center center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* fin de las classes globales de cajas */
+
+
+/************* clases pertenecientes al form *************/
+.form-control {
+    font-size: 14px;
+    border: 1px solid #cacaca;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.form-control:focus {
+    border: 1px solid var(--dark-color);
+    outline: none;
+    box-shadow: none;
+}
+/* clase para botones del formulario */
+.full-width {
+    width: 100%;
+}
+/* fin de la clase de botones para formulario */
+/************* fin de classes del form *************/
+
+
+
+/***** estilos del footer *****/
+footer {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    background: #111111;
+}
+
+footer a {
+    color: white;
+}
+
+footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+}
+/***** fin de los estilos del footer *****/
+
+
+/* estilos de ventana de accesibilidad */
+.columns-master {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-xs-6 {
+    -webkit-box-flex: 1;
+    flex: 1 1 50%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.inner-model p {
+    margin: 9px 0 0 0;
+}
+
+.inner-model img {
+    width: 75%;
+}
+
+.modal-header {
+    background-color: #1a1a1a;
+    color: #Fff;
+}
+
+.modal-body {
+    background-color: #fff;
+}
+
+.modal-footer {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding: 0px;
+}
+
+
+.modal-grid .col-xs-6:last-child {
+    background-color: #e8fcd6;
+    color: #268400!important;
+}
+
+.inner-footer {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* media queries ventana accesibilidad */
+@media only screen and (max-width: 500px) {
+    .columns-master {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+    .modal-body .columns-master {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+    }
+    .modal-body .col-xs-6 {
+        height: 83px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .modal-dialog {
+        margin: 20px;
+    }
+    button.btn.btn-modal {
+        padding: 6px 20px;
+    }
+}
+/* fin de media queries ventana accesibilidad */
+
+.circle-icon {
+    background: #E8D051;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 9px 18px 0 rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    display: -webkit-box;
+    display: flex;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.accessibility-btn {
+    position: fixed;
+    background-color: #E8D051;
+    color: #000;
+    top: 25%;
+    left: 1%;
+}
+
+.modal-body .col-xs-6 {
+    -webkit-box-flex: 1;
+    flex: 1 1 50%;
+    height: 100px;
+    border: solid 1px #ddd;
+}
+
+.modal-grid .col-xs-6:hover {
+    background: #ecfbff;
+    box-shadow: inset 0 0 0 1px #003d68;
+    cursor: pointer;
+}
+
+.inner-model .fa {
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.inner-model p {
+    color: #444;
+    font-weight: 600;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+}
+
+.modal-title {
+    font-size: 1rem;
+}
+
+.green-text {
+    color: #108a00 !important;
+}
+
+.col-1-3 {
+    visibility: hidden;
+    -webkit-box-flex: 1;
+    flex: 1;
+    background-color: #429442;
+    margin: 0 1px;
+    height: 5px;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.inner-contrast {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+}
+
+.column-mode {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.modal-dialog {
+    width: 75%;
+    margin: auto auto;
+    font-size: 1rem;
+}
+
+.margin-none {
+    margin: 0 !important;
+}
+
+
+/* === Estilos de los modos de los botones ===  */
+/* Contraste Modo #1 */
+.invert--1 {
+    background-color: rgb(211, 15, 147)!important;
+    border-color: rgb(248, 248, 210)!important;
+    background-image: none;
+    color: rgb(248, 248, 210)!important;
+}
+/* Contrast Modo #2 */
+.invert--2 {
+    background-color: #ffff00!important;
+    border-color: #000000!important;
+    background-image: none;
+    color: #000000!important;
+}
+/* Contrast Modo #3 */
+.invert--3 {
+    color: #fff !important;
+    border-color: #fff!important;
+    background-image: none;
+    background-color: #800080 !important;
+}
+
+/* estilos para incrementar el font-size */
+/* font-size modo #1 */
+.big-text-1 {
+    font-size: 21px;
+}
+/* font-size modo #2 */
+.big-text-2 {
+    font-size: 24px;
+}
+/* font-size modo #3 */
+.big-text-3 {
+    font-size: 27px;
+}
+
+/* estilos para saturación */
+/* saturación modo #1 */
+.saturate-1 {
+    filter: saturate(4)!important;
+    -webkit-filter: saturate(4)!important;
+    -moz-filter: saturate(4)!important;
+}
+/* saturación modo #2 */
+.saturate-2 {
+    filter: saturate(50%)!important;
+    -webkit-filter: saturate(50%)!important;
+    -moz-filter: saturate(50%)!important;
+}
+/* saturación modo #2 */
+.saturate-3 {
+    filter: saturate(0)!important;
+    -webkit-filter: saturate(0)!important;
+    -moz-filter: saturate(0)!important;
+}
+
+/* estilos para resaltar enlaces */
+.highlight-1 {
+    background-color: yellow;
+    color: #000 !important;
+    outline: dotted thin !important;
+}
+
+/* estilos para diferentes tipos de fonts */
+/* font modo #1 */
+.font-1 {
+    font-family: Arial;
+}
+/* font modo #2 */
+.font-2 {
+    font-family: Georgia;
+}
+/* font modo #3 */
+.font-3 {
+    font-family: times;
+}
+/*===Fin de los estilos de los modos de los botones ===*/
+/********** fin de estilos de ventana de accesibilidad **********/
+
+
+
+/* estilos del boton subir */
+.boton-subir {
+    display: none;
+    background: #E8D051;
+    border: thin solid #003d68;
+    border-radius: 3px;
+    position: fixed;
+    right: 15px;
+    bottom: 2px;
+    z-index: 999999999;
+}
+/* evento hover */
+.boton-subir:hover {
+    box-shadow: 0px 2px 10px 0px rgba(232, 208, 81, 0.95);
+}
+/* estilos para el tag i */
+.boton-subir i {
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 1.5em;
+    padding: 10px 10px 10px 7px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+/* fin de los estilos del boton subir  */
+
+
+/* estilos de la barra de scroll */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(210, 210, 210);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(46, 54, 69);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(210, 210, 210);
+    background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+}
+/* this is for firefox */
+:root {
+    scrollbar-face-color: rgb(210, 210, 210);
+    /* Firefox 63 compatibility */
+    scrollbar-track-color: rgb(46, 54, 69);
+    /* Firefox 63 compatibility */
+    scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69);
+    scrollbar-width: thin;
+}
+/* fin de los estilos de la barra de scroll */
+
+
+
+
+
+
+
+
+/********** media queries **********/
+/* media queries globales */
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .footer-menu {
+        display: block !important;
+        padding: 20px 0 !important;
+        font-size: 20px;
+    }
+    #banner {
+        background-image: url(../img/XboxPlayNintendo.webp);
+    }
+    #xbox {
+        background-image: url(../img/XboxOne.webp);
+    }
+    #ps4{
+        background-image: url(../img/PS4.webp);
+    }
+    #nintendo{
+        background-image: url(../img/nintendo.webp);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
+/* fin media queries globales */
+
+
+/********** fin de media queries **********/
