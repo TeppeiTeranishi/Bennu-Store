@@ -268,13 +268,249 @@ text-decoration: none;
 /* fin de los banners de las páginas */
 
 /* prueba de imagenes zoon */
+/* seccion de xbox */
+figure.Elite-Series-2{
+    background-image: url(../XboxController/XboxEliteControllerSeries2-InWithTheNew.webp);
+}
+
 figure.cyberpunk{
     background-image: url(../XboxController/Cyberpuck2077.webp);
 }
+
+figure.Artic-Camouflage{
+    background-image: url(../XboxController/ArcticCamouflage-CoolAndClean.webp);
+}
+
+figure.Phantom-Magenta{
+    background-image: url(../XboxController/PhantomMagenta-PrettyInPink.webp);
+}
+
+figure.Midnight-Forces-2{
+    background-image: url(../XboxController/MidnightForces-NightOperations.webp);
+}
+
+figure.DPM-X019{
+    background-image: url(../XboxController/DPMX019Exclusive-LondonSouvenir.webp);
+}
+
+figure.Night-Ops-Camouflage{
+    background-image: url(../XboxController/NightOpsCamouflage-GoingDark.webp);
+}
+
+figure.Night-Ops-Camouflage{
+    background-image: url(../XboxController/NightOpsCamouflage-GoingDark.webp);
+}
+
+figure.Sport-Blue{
+    background-image: url(../XboxController/SportBlue-SkyBlue.webp);
+}
+
+figure.Gears-5-Kait-Díaz{
+    background-image: url(../XboxController/Gears5KaitDíaz-ColdMetal.webp);
+}
+
+figure.Fornite{
+    background-image: url(../XboxController/FortniteEdition.webp);
+}
+figure.Phantom-White{
+    background-image: url(../XboxController/PhantomWhite-StrikinglyPure.webp);
+}
+
+figure.Sport-Red{
+    background-image: url(../XboxController/SportRed-CherryRed.webp);
+}
+
+figure.PlayerUnknowns-Battlegrounds{
+    background-image: url(../XboxController/PlayerUnknownsBattlegrounds-PUBG.webp);
+}
+
+figure.Phantom-Black{
+    background-image: url(../XboxController/PhantomBlack-UnderTheHood.webp);
+}
+
+figure.Elite-White{
+    background-image: url(../XboxController/XboxEliteWhite-NewLook.webp);
+}
+
+figure.Gray-Blue{
+    background-image: url(../XboxController/Gray-Blue-MutedTones.webp);
+}
+
+figure.Armed-Forces-2{
+    background-image: url(../XboxController/ArmedForcesII-ArmedAndReady.webp);
+}
+
+figure.Sport-White{
+    background-image: url(../XboxController/SportWhite-PearlyWhite.webp);
+}
+
+figure.Combat-Tech{
+    background-image: url(../XboxController/CombatTech-FutureWarfare.webp);
+}
+
+figure.Sea-Of-Thieves{
+    background-image: url(../XboxController/SeaOfThieves.webp);
+}
+
+figure.Project-Scorpio{
+    background-image: url(../XboxController/ProjectScorpio-ForTheFans.webp);
+}
+
+figure.Minecraft-Creeper{
+    background-image: url(../XboxController/MinecraftCreeper-KeepYourDistance.webp);
+}
+
+figure.Minecraft-Pig{
+    background-image: url(../XboxController/MinecraftPig-PorkyPal.webp);
+}
+
+figure.Volcano-Shadow{
+    background-image: url(../XboxController/VolcanoShadow-HotHands.webp);
+}
+
+figure.Patrol-Tech{
+    background-image: url(../XboxController/PatrolTech-Covert.webp);
+}
+
+figure.Gray-Green{
+    background-image: url(../XboxController/Gray-Green-LightAndEasy.webp);
+}
+
+figure.Recon-Tech{
+    background-image: url(../XboxController/ReconTech-Monochromatic.webp);
+}
+
+figure.Ocean-Shadow{
+    background-image: url(../XboxController/OceanShadow-GoingWavy.webp);
+}
+
+figure.Winter-Forces{
+    background-image: url(../XboxController/WinterForces-Sub-Zero.webp);
+}
+
+figure.Green-Orange{
+    background-image: url(../XboxController/Green-Orange-PrimedForCombat.webp);
+}
+
+figure.Edición-Red{
+    background-image: url(../XboxController/Red-RoyalRed.webp);
+}
+
+figure.Edición-Blue{
+    background-image: url(../XboxController/Blue-BrightAndBold.webp);
+}
+
+figure.DawnShadow{
+    background-image: url(../XboxController/DawnShadow-TheRisingSun.webp);
+}
+
+figure.Military-Green{
+    background-image: url(../XboxController/MilitaryGreen-ToolsOfWar.webp);
+}
+
+figure.Deep-Blue{
+    background-image: url(../XboxController/DeepBlue-OceanWaves.webp);
+}
+
+figure.Storm-Grey{
+    background-image: url(../XboxController/StormGrey-GrayScale.webp);
+}
+
+figure.Gears-Of-War-4-Crimson-Omen{
+    background-image: url(../XboxController/GearsOfWar4CrimsonOmen-Scarred.webp);
+}
+
+figure.Gears-Of-War-4-JD-Fénix{
+    background-image: url(../XboxController/GearsOfWar4JDFenix-ArmoredUp.webp);
+}
+
+figure.Gears-Of-War-4-Elite{
+    background-image: url(../XboxController/GearsOfWar4Elite-WarTorn.webp);
+}
+
+figure.Edición-Black{
+    background-image: url(../XboxController/Black-BackToBlack.webp);
+}
+
+figure.Elizabeth-Arden-White{
+    background-image: url(../XboxController/ElizabethArdenWhite.webp);
+}
+
+figure.Dusk-Shadow{
+    background-image: url(../XboxController/DuskShadow-WindingDown.webp);
+}
+
+figure.Copper-Shadow{
+    background-image: url(../XboxController/CopperShadow-HeavyMetal.webp);
+}
+
+figure.Halo-5-Guardians-Master-Chief{
+    background-image: url(../XboxController/Halo5GuardiansMasterChief-TheIcon.webp);
+}
+
+figure.Halo-5-Guardians-Locke{
+    background-image: url(../XboxController/Halo5GuardiansLocke-SpartanOfSteel.webp);
+}
+
+figure.Elite-Wireless{
+    background-image: url(../XboxController/MicrosoftXboxEliteWirelessController.webp);
+}
+
+figure.Armed-Forces{
+    background-image: url(../XboxController/ArmedForces-Undercover.webp);
+}
+
+figure.Lunar-White{
+    background-image: url(../XboxController/LunarWhite-Intergalactic.webp);
+}
+
+figure.Forza-Motorsport-6{
+    background-image: url(../XboxController/ForzMotorsport6.webp);
+}
+
+figure.Covert-Forces{
+    background-image: url(../XboxController/CovertForces-TacticalGaming.webp);
+}
+
+figure.Midnight-Forces{
+    background-image: url(../XboxController/MidnightForces-NightOperations.webp);
+}
+
+figure.Call-Of-Dut-Advanced-Warfare{
+    background-image: url(../XboxController/CallOfDutyAdvancedWarfare.webp);
+}
+
+figure.Elizabeth-Arden-White1{
+    background-image: url(../XboxController/ElizabethArdenWhite1.webp);
+}
+
+figure.Edición-Camouflage{
+    background-image: url(../XboxController/Camouflage-BlendIn.webp);
+}
+
+figure.China-Day-One{
+    background-image: url(../XboxController/ChinaDayOne-EasternExclusive.webp);
+}
+
+figure.Titanfall{
+    background-image: url(../XboxController/Titanfall.webp);
+}
+
+figure.Launch-Team{
+    background-image: url(../XboxController/LaunchTeam-IMadeThis.webp);
+}
+
+figure.Day-One{
+    background-image: url(../XboxController/DayOne-EarlyBird.webp);
+}
+
+figure.Edición-Black{
+    background-image: url(../XboxController/Black-XboxOrigins.webp);
+}
+/* fin seccion xbox */
 figure.zoom {
     background-position: 50% 50%;
     position: relative;
-    /* width: 500px; */
     overflow: hidden;
     cursor: zoom-in;
 }
@@ -723,27 +959,9 @@ footer .list-inline .list-inline-item {
         padding: 20px 0 !important;
         font-size: 20px;
     }
-    #banner {
-        background-image: url(../img/XboxPlayNintendo.webp);
-    }
-    #xbox {
-        background-image: url(../img/XboxOne.webp);
-    }
-    #ps4{
-        background-image: url(../img/PS4.webp);
-    }
-    #nintendo{
-        background-image: url(../img/nintendo.webp);
-    }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-@media (min-width: 1200px) {}
 /* fin media queries globales */
 
 
