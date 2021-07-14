@@ -1,5 +1,5 @@
 /* esto es de select de texto */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 ::-moz-selection {color: #F1F1F1; background: #017c6a;}
 ::selection      {color: #F1F1F1; background: #017c6a;}
 /* fin del select de texto */
@@ -32,7 +32,7 @@ html {
 /* estilos para el body */
 body {
     background: #ffffff;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
     font-size: 18px;
