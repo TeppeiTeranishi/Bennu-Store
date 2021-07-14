@@ -186,8 +186,15 @@ text-decoration: none;
 .linksmandos {
     color: var(--dark-color) !important;
 }
-.linksmandos:hover {
-    color: var(--gold-color) !important;
+
+.linksmandos.ps:hover {
+    color: rgba(0, 112, 209, 4) !important;
+}
+.linksmandos.ntd:hover {
+    color: rgba(230, 0, 18, 4) !important;
+}
+.linksmandos.xos:hover {
+    color: rgba(113, 198, 62, 4) !important;
 }
 /* fin de estilos rtiquetas h, p y a */
 
@@ -235,7 +242,7 @@ text-decoration: none;
 }
 
 #banner h1{
-    padding-top: 230px;
+    margin-top: 300px;
     color: #F1F1F1;
 }
 
@@ -508,12 +515,248 @@ figure.Edición-Black{
     background-image: url(../XboxController/Black-XboxOrigins.webp);
 }
 /* fin seccion xbox */
-figure.zoom {
+
+/* inicio play station */
+figure.Edición-Berry-Blue{
+    background-image: url(../PlayStation4/BerrryBlue-SweetCompliments.webp);
+}
+
+figure.Edición-Jet-Black{
+    background-image: url(../PlayStation4/JetBlack-TheBasicB.webp);
+}
+
+figure.Edición-Glacier-White{
+    background-image: url(../PlayStation4/GlacierWhite-CleanAndSimple.webp);
+}
+
+figure.Edición-Green-Camouflage{
+    background-image: url(../PlayStation4/GreenCamouflage-CanYouSeeIt.webp);
+}
+
+figure.Edición-Blue-Camouflage{
+    background-image: url(../PlayStation4/BlueCamouflage-UrbanArmy.webp);
+}
+
+figure.Edición-Wave-Blue{
+    background-image: url(../PlayStation4/WaveBlue-GoBlueBarracudas.webp);
+}
+
+figure.Edición-Magma-Red{
+    background-image: url(../PlayStation4/MagmaRed-RedJaguars.webp);
+}
+
+figure.Edición-Gold{
+    background-image: url(../PlayStation4/Gold-MetallicMaster.webp);
+}
+
+figure.Edición-Silver{
+    background-image: url(../PlayStation4/Silver-TeamSilverSnakes.webp);
+}
+
+figure.Sunset-Orange{
+    background-image: url(../PlayStation4/SunsetOrange-OrangeIguanas.webp);
+}
+
+figure.Edición-Crystal{
+    background-image: url(../PlayStation4/Crystal-CrystalClear-Ish.webp);
+}
+
+figure.Red-Crystal{
+    background-image: url(../PlayStation4/RedCrystal-RubyGem.webp);
+}
+
+figure.Blue-Crystal{
+    background-image: url(../PlayStation4/BlueCrystal-KyaniteBlue.webp);
+}
+
+figure.Steel-Black{
+    background-image: url(../PlayStation4/SteelBlack-ColdRolledStainless.webp);
+}
+
+figure.Midnight-Blue{
+    background-image: url(../PlayStation4/MidnightBlue-CalmControlled.webp);
+}
+
+figure.Metallic-Copper{
+    background-image: url(../PlayStation4/MetallicCopper-PrettyPenny.webp);
+}
+
+figure.Alpine-Green{
+    background-image: url(../PlayStation4/AlpineGreen-GoGreenMonkeys.webp);
+}
+
+figure.Rose-Gold{
+    background-image: url(../PlayStation4/RoseGold-RoseOfADifferentColor.webp);
+}
+
+figure.Titanium-Blue{
+    background-image: url(../PlayStation4/TitaniumBlue-ThisIsTitanium.webp);
+}
+
+figure.Electric-Purple{
+    background-image: url(../PlayStation4/ElectricPurple-UnlimitedPower.webp);
+}
+
+figure.Red-Camouflage{
+    background-image: url(../PlayStation4/RedCamouflage-ConcealedAndAngry.webp);
+}
+
+figure.Anniversary{
+    background-image: url(../PlayStation4/20thAnniversary-Nostalgia.webp);
+}
+
+figure.Call-Of-Duty-Black-Ops-III{
+    background-image: url(../PlayStation4/CallOfDutyBlackOpsIII-SubtlePop.webp);
+}
+
+figure.Edición-Call-Of-Duty-WWII{
+    background-image: url(../PlayStation4/CallOfDutyWWII-DistinctShades.webp);
+}
+
+figure.Uncharted{
+    background-image: url(../PlayStation4/Uncharted4-SecretCollector.webp);
+}
+
+figure.Star-Wars{
+    background-image: url(../PlayStation4/StarWarsBattlefrontII-ALongTimeAgo.webp);
+}
+
+figure.Darth-Vader{
+    background-image: url(../PlayStation4/DarthVaderEdition-InAGalaxyFarFarAway.webp);
+}
+
+figure.Monster-Hunter{
+    background-image: url(../PlayStation4/MonsterHunterWord-DidSomebodySayPalico.webp);
+}
+
+figure.God-Of-War{
+    background-image: url(../PlayStation4/GodOfWar-BOY.webp);
+}
+
+figure.GT-Sport{
+    background-image: url(../PlayStation4/GTSport-SilverAgain.webp);
+}
+
+figure.Spiderman{
+    background-image: url(../PlayStation4/MarvelsSpiderman-YourFriendlyNeighbourhood.webp);
+}
+
+figure.Football{
+    background-image: url(../PlayStation4/F.C.FootballClub-Goooooooal.webp);
+}
+
+figure.Destiny2{
+    background-image: url(../PlayStation4/Destiny2-TheLightLivesInAllPlaces.webp);
+}
+
+figure.Death-Stranding{
+    background-image: url(../PlayStation4/DeathStranding-ItsABoy.webp);
+}
+/* fin inicio play station */
+
+
+/* inicio sección nintendo */
+figure.Edición-Gray{
+    background-image: url(../NintendoSwitch/Gray-StandardOption.webp);
+}
+
+figure.Red-and-Blue{
+    background-image: url(../NintendoSwitch/RedAndBlue-MixItUp.webp);
+}
+
+figure.Neon-Yellow{
+    background-image: url(../NintendoSwitch/NeonYellow-Bumblebee.webp);
+}
+
+figure.Pink-and-Green{
+    background-image: url(../NintendoSwitch/NeonPinkAndGreen-SplashItUp.webp);
+}
+
+figure.Joy-Cons{
+    background-image: url(../NintendoSwitch/AnimalCrossingNewHorizonsJoyCons-TropicalParadise.webp);
+}
+
+figure.NES-Controllers{
+    background-image: url(../NintendoSwitch/NESControllersForNintendoSwitch-ClassicControllers.webp);
+}
+
+figure.eXtreme-Rate{
+    background-image: url(../NintendoSwitch/eXtremeRateReplacementJoyConShells-OutOfTheShell.webp);
+}
+
+figure.Ware-Paint{
+    background-image: url(../NintendoSwitch/ColorWarePaint-CustomizingOptions.webp);
+}
+
+figure.Silicone-Covers{
+    background-image: url(../NintendoSwitch/SiliconeCovers-CoverItUp.webp);
+}
+
+figure.Japanese-Import{
+    background-image: url(../NintendoSwitch/Splatoon2SiliconeCoverJapaneseImport-DesignedSilicone.webp);
+}
+
+figure.Transparent-Shell{
+    background-image: url(../NintendoSwitch/TransparentShellReplacements-GetCrafty.webp);
+}
+
+figure.NES-Style{
+    background-image: url(../NintendoSwitch/NES-StyleShellReplacement-MoreNostalgia.webp);
+}
+
+figure.Neon-Red{
+    background-image: url(../NintendoSwitch/NeonRed-GoVibrant.webp);
+}
+
+figure.Blue-Nintendo{
+    background-image: url(../NintendoSwitch/Blue-BeachFavorite.webp);
+}
+
+figure.Pokemon{
+    background-image: url(../NintendoSwitch/PokmonLetsGoPikachuAndLetsGoEeveeJoy-Cons-GottaCatchemAll.webp);
+}
+
+figure.Neon-Purple{
+    background-image: url(../NintendoSwitch/NeonPurpleAndNeonOrange-Halloween.webp);
+}
+
+figure.Joy-Cons{
+    background-image: url(../NintendoSwitch/GreenJoy-Cons-LuigiTimel.webp);
+}
+
+figure.Blue-And-Neon{
+    background-image: url(../NintendoSwitch/BlueAndNeonYellow-DarkAndLight.webp);
+}
+/* fin sección nintendo */
+
+
+figure.zoom.xbox {
     background-position: 50% 50%;
     position: relative;
     overflow: hidden;
     cursor: zoom-in;
+    border-radius: 15px;
+    box-shadow: rgba(113, 198, 62, 4) 0px 5px, rgba(113, 198, 62, 0.3) 0px 10px, rgba(113, 198, 62, 0.2) 0px 15px, rgba(113, 198, 62, 0.1) 0px 20px, rgba(113, 198, 62, 0.05) 0px 25px;
 }
+
+figure.zoom.sony {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+    border-radius: 15px;
+    box-shadow: rgba(0, 112, 209, 4) 0px 5px, rgba(0, 112, 209, 0.3) 0px 10px, rgba(0, 112, 209, 0.2) 0px 15px, rgba(0, 112, 209, 0.1) 0px 20px, rgba(0, 112, 209, 0.05) 0px 25px;
+}
+
+figure.zoom.nintendo {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+    border-radius: 15px;
+    box-shadow: rgba(230, 0, 18, 4) 0px 5px, rgba(230, 0, 18, 0.3) 0px 10px, rgba(230, 0, 18, 0.2) 0px 15px, rgba(230, 0, 18, 0.1) 0px 20px, rgba(230, 0, 18, 0.05) 0px 25px;
+}
+
 figure.zoom img:hover {
     opacity: 0;
 }
@@ -558,19 +801,20 @@ figure.zoom img {
     max-width: 100%;
     background-position: center center;
     background-size: cover;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed; */
-    height: auto
+    height: auto;
 }
 
 .bennuimg img {
-    /* height: 310.75px;
-    width: 350px; */
     background-position: center center;
     background-size: cover;
-
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.img-fluid{
+    border-radius: 15px;
 }
 
 /* fin de las classes globales de cajas */
